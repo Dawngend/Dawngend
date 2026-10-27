@@ -28,6 +28,10 @@ Currently a **Machine Learning Intern at FlyRank AI** and **Co-Founder / Lead Ba
 
 ### Featured Work
 
+**[Andy Router](https://github.com/Dawngend/andy-router)** · agent orchestration · [2-minute video](https://github.com/Dawngend/andy-router/blob/main/docs/walkthrough.mp4)
+Routes each coding task to an agent and model, builds on an isolated git branch, has a different model family review it, runs the checks, and merges only small passing work. Anything big or risky stops for a human.
+`Published benchmark from 166 real runs: 50 merged, 99 stopped for review, 17 failed. 220+ offline tests.`
+
 **[ForgeAI](https://github.com/Emran-goat/forgeai)** · AMD Developer Cloud Hackathon · [live demo](https://forgeai-fbda.onrender.com/)
 Automated 7-phase model compression platform for AMD Instinct MI300X GPUs via ROCm: knowledge distillation, pruning, and INT8/FP8 quantization. An Optuna-powered Pareto frontier engine searches the accuracy against latency tradeoff, with an async FastAPI + aiosqlite + WebSockets backend for live cloud benchmarking.
 `Cut VRAM consumption by 60%+ and doubled QPS throughput.`
